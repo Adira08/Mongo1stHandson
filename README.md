@@ -1,11 +1,11 @@
-Question1:Create a database , give it name like "Human_Resource".
+<h1>Question1:Create a database , give it name like "Human_Resource".</h1>
 
-use Human_Resource
-switched to db Human_Resource
+<p>use Human_Resource <br />
+switched to db Human_Resource</p>
 
-Question2:Create a collection inside this named "employee".
+<h1>Question2:Create a collection inside this named "employee".</h1>
 
-Human_Resource> db.createCollection("employee");
+<p>Human_Resource> db.createCollection("employee");</p>
 { ok: 1 }
 
 Question3:Query the collection "employee" and list all the documents.
